@@ -17,6 +17,7 @@ min_slope_for_fill: 0.0001
 # Parameters for selecting channels and basins
 
 threshold_contributing_pixels: 500
+connected_components_threshold: 10
 print_area_threshold_channels: true
 print_wiener_channels: true
 print_pelletier_channels: false

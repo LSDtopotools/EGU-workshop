@@ -3,8 +3,8 @@
 
 # These are parameters for the file i/o
 # IMPORTANT: You MUST make the write directory: the code will not work if it doesn't exist.
-read path: /LSDTopoTools/EGU-workshop/data/Pozo_1m
-write path: /LSDTopoTools/EGU-workshop/data/Pozo_1m
+read path: ./
+write path: ./
 read fname: Pozo_DTM
 write fname: Pozo_DTM
 channel heads fname: Pozo_DTM_Wsources

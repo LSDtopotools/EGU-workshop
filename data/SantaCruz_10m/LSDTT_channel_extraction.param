@@ -5,8 +5,8 @@
 
 # These are parameters for the file i/o
 # IMPORTANT: You MUST make the write directory: the code will not work if it doesn't exist.
-read path: /LSDTopoTools/EGU-workshop/data/
-write path: /LSDTopoTools/EGU-workshop/data/
+read path: /LSDTopoTools/EGU-workshop/data/SantaCruz_10m
+write path: /LSDTopoTools/EGU-workshop/data/SantaCruz_10m
 read fname: SCI_DTM_10m
 write fname: SCI_DTM_10m
 channel heads fname: NULL
@@ -17,9 +17,8 @@ min_slope_for_fill: 0.0001
 # Parameters for selecting channels and basins
 
 threshold_contributing_pixels: 500
-connected_components_threshold: 10
 print_area_threshold_channels: true
-print_wiener_channels: true
+print_wiener_channels: false
 print_pelletier_channels: false
 print_dreich_channels: false
 

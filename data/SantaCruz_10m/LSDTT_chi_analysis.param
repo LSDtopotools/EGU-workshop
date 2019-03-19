@@ -5,19 +5,19 @@
 
 # These are parameters for the file i/o
 # IMPORTANT: You MUST make the write directory: the code will not work if it doesn't exist.
-read path: /LSDTopoTools/EGU-workshop/data/
-write path: /LSDTopoTools/EGU-workshop/data/
+read path: /LSDTopoTools/EGU-workshop/data/SantaCruz_10m
+write path: /LSDTopoTools/EGU-workshop/data/SantaCruz_10m
 read fname: SCI_DTM_10m
 write fname: SCI_DTM_10m
-channel heads fname: SCI_DTM_10m_Wsources
+channel heads fname: SCI_DTM_10m_ATsources
 
 # Parameter for filling the DEM
 min_slope_for_fill: 0.0001
 
 # Parameters for selecting channels and basins
-threshold_contributing_pixels: 5000
-minimum_basin_size_pixels: 50000
-maximum_basin_size_pixels: 600000
+threshold_contributing_pixels: 500
+minimum_basin_size_pixels: 5000
+maximum_basin_size_pixels: 60000
 test_drainage_boundaries: false
 find_largest_complete_basins: false
 find_complete_basins_in_window: true
@@ -28,3 +28,6 @@ print_basin_raster: true
 
 # Chi analysis options
 print_chi_data_maps: true
+print_basic_M_chi_map_to_csv: true
+A_0: 1
+m_over_n: 0.45

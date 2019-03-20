@@ -23,7 +23,7 @@ find_largest_complete_basins: false
 find_complete_basins_in_window: true
 
 # The data that you want printed to file
-write hillshade: false
+write_hillshade: false
 print_basin_raster: true
 
 # Chi analysis options

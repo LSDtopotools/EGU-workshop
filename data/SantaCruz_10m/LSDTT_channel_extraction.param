@@ -22,5 +22,5 @@ print_wiener_channels: false
 print_pelletier_channels: false
 print_dreich_channels: false
 
-write hillshade: true
+write_hillshade: true
 print_stream_order_raster: true
